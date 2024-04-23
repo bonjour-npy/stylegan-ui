@@ -1,0 +1,25 @@
+{
+  "port": 3000,
+  "device": "cuda",
+  "website": {
+    "name": "Demo",
+    "title": "基于 Prompt Learning 的视觉-语言大模型在图像生成中的应用与研究",
+    "description": "Change this description by modify config.json.",
+    "source_license": "MIT",
+    "license_link": "http://opensource.org/licenses/mit-license.php",
+    "source_link": "https://github.com/bonjour-npy",
+    "help_link": "https://github.com/bonjour-npy",
+    "owner_name": "bonjour-npy",
+    "owner_link": "https://github.com/bonjour-npy"
+  },
+  "models": {
+    "starganv2_afhq": {
+      "name": "Pretrained StarGANv2 model on AFHQ.",
+      "description": "This model can be used to translate animal faces."
+    },
+    "ffhq_disney": {
+      "name": "Adapted disney StyleGANv2 model pretrained on FFHQ.",
+      "description": "This model can be used to translate human faces."
+    }
+  }
+}
